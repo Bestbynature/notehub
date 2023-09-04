@@ -7,11 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* .field {
-  margin-bottom: 3rem;
-  display: block;
-} */
-
 form {
   border: 2px solid red;
   height: auto;

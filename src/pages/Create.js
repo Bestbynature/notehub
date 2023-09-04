@@ -22,7 +22,6 @@ const Create = () => {
     const [detailsError, setDetailsError] = useState(false);
     const [category, setCategory] = useState('todos');
 
-
     const handleSubmit = (e) => {
         e.preventDefault();
         setTitleError(false);

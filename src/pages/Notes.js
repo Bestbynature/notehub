@@ -15,8 +15,6 @@ const Notes = () => {
         const newNotes = notes.filter(note => note.id !== id);
         setNotes(newNotes);
     }
-      
-
 
     useEffect(() => {
         fetch('http://localhost:8000/notes')
